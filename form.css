@@ -1,0 +1,62 @@
+div{
+    height: 400px;
+    width: 450px;
+    background: pink;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 150px;
+    margin-left: 400px;
+   
+}
+h2{
+    margin-left: 50px;
+    font-size: 1.6em
+   
+}
+p{
+    margin-left: 50px;
+    font-weight: bold;
+}
+label{
+    padding: 10px;
+    float: left;
+    width: 100%;
+    text-align: left;
+    margin-left: 60px;
+    
+   
+    
+    
+}
+
+#inp{
+    margin-left:30px;
+    border-radius: 5px;
+}
+#eml{
+   margin-left:10px;
+    border-radius: 5px; 
+}
+#msg{
+   margin-left:20px;
+    border-radius: 5px;  
+}
+select{
+    margin-left: 35px;
+    background: white;
+    border-radius: 5px;
+    width: 120px;
+}
+#btn{
+    float: left;
+    border-radius: 5px;
+    width: 70px;
+    height: 30px;
+    margin-left: 105px;
+    cursor: pointer;
+    color: pink;
+    background: black;
+}
+span{
+    text-align: center;
+}

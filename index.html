@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Form</title>
+        <link rel="stylesheet" href="form.css">
+    </head>
+    <body>
+        <div>
+       
+            <h2>Application for job </h2>
+            <hr>
+            <p>Please fill this form</p>
+            <hr>
+            <label>
+                <span>Full Name:</span>
+                <input id="inp" type="text" name="name" placeholder="Your name and surname" autofocus="required">
+            </label>
+         
+            <label>
+                <span>Email Adress:</span>
+                <input id="eml" type="email" name="email" placeholder="Your email address">
+            </label>
+            
+            <label>
+                <span>Information:</span>
+                <textarea name="message" id="msg" placeholder="Something about yourself"></textarea>
+            </label>
+           
+            <label>
+                <span>Education:</span><select name="selection">
+                    <option value="highschool">High school</option>
+                     <option value="unviversity">University</option>
+                    
+                </select>
+                
+            </label>
+          
+            <label>
+                <input type="button" id="btn" value="Submit">
+            </label>
+       </div>
+        <script src="main.js"></script>
+    </body>
+    </html>
